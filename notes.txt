@@ -1,3 +1,119 @@
 ## CSCI 395- Intro to Data Science
 01/28/2025
 
+Instructor: Adrián Soto (adrian.soto@hunter.cuny.edu)
+
+Meetings: Tuesdays and Thursdays, 5:30pm-6:45pm, HN-1001E.
+
+adriansoto.me/teaching
+
+Grading Policy
+
+This course is an in-person course that combines theory and practice. As such, it will be graded based on the following items
+
+    In-person participation via synchronous classwork: 10%
+    Individual programming assignments: 20%
+    Capstone project: 20%
+    Midterm exam: 20%
+    Final exam: 30%
+
+data analysis almost every class
+
+python + packages and current dara sets load(ed)
+
+• Capstone project: 20% of grade
+- coding porfoloio of ones resume
+
+extensive coding with stats & data sicence packages
+
+https://github.com/joseeeortizz || email handle to prof.
+
+Packages: numpy, matplotlib, pandas, pandasql, plotly, scikit-learn, folium, seaborn
+
+UC Berkeley: DS 100 course textbook
+
+
+• design & coding challenges in lecture - Participation 10% of grade
+
+• programs 20% of grade. python-based, reinforce conceprts, typically due thursday before classs
+
+• Midterm exam: 20% of grade
+    thurdsay may 13, theory and practice
+
+• Final exam: 30% of grade
+    tuesday mat 20, theory and practice
+
+
+
+    biz analyst, data scientist, data engineer, data analyst, devops, data engineer
+
+
+    business, machine learningm math, progrmaming, ststidtics
+
+string methods
+
+indexing
+
+length functions
+
+for loop traversal
+
+slicing (arrays, lists) [:]
+
+string comparison
+
+in and not in operators
+
+
+self-work
+
+hackerrank string challenges:
+
+Strings on the right side of the menu
+
+File I/O
+
+open, close, read, readline, readlines.
+
+
+
+
+• with statements,
+    storing "file type" as md
+
+• iterating over files:
+
+    ccfile: open, read, write, close
+
+• formatted literal strings
+     f-strings (f"{anything}")
+     formatting floating point numbers
+
+• Dictionaries:
+
+    thinkscpy dictionaries 12.1
+
+dictionaries in python is not sorted. py 3.6
+
+Python Parameters
+
+argument && parameter
+
+        e.g. def func(foo, bar = none)
+
+• good style & linting
+
+    linter: a tool that flags errors and stylistic issues
+
+- Pylint: PEP 8
+
+
+    Names: use snake_case & length >= 3
+    no trailing whitespace
+    docstrings:
+
+
+
+
+
+
