@@ -1,2 +1,104 @@
 csci395 01/30
 
+Project Idea:
+• weather forecasting app
+
+- 3rd party API
+- 5 day forecast
+- current weather
+- location based
+- user input
+- user interface
+- user friendly
+
+
+• Data Sceince Lifecycle
+
+question formulation
+data aquisition and clenaing
+exploratory data analysis
+prediction and future
+
+What do we want to tknoe or what problems are we trying to solve
+
+what are our hypothesis
+
+what are our metrics of success
+
+ • obtain data
+
+ what data do we have and what data do we need?
+
+ • understand the data
+
+ do we already have relevant data?
+
+ what are the bisases, anomalies, or other issues with the data
+
+ ## flat table
+
+ • Understand the world
+
+ what does the data say about the world
+
+ does it answer oir questions oer accuralety solve the prolbem
+
+ how robust are our conclusions
+
+ ## meta data
+
+ ## data science comes to protecting the hypothesis and working with the data (and making it work for the problem)
+
+
+ • SAMPLING
+
+ how can we draw conclusions about a large population using small samples
+
+ quota sampling 1948
+
+ - population (size N)
+ - sampling frame
+ - sample (a subset of the sample frame)
+
+ • censys (a sample covers the entire population)
+
+ • Administrative Data (sample covers entire sampling frame but not the population)
+
+• ideal random sample (sampling frame is the population and the sample is random)
+
+• typical sample in practice (sampling frame partially overlaps with the populatios)
+
+• ACCURACY
+
+in data science we use large and diverse data sets to make conclusions about the world
+
+low variance & high bias - worst scenario
+
+## essentially all models are wrong, btu some are useful
+
+A model is an idealized representation of a system
+
+• the Constant Model
+what's the simplest model, one that always makes the same prediction
+
+
+mathematically, theta(x) = 0
+
+while this model is simple, training it is challenging
+
+• code for histogram
+
+sns.histplot(data, bins=20, kde=True);
+
+tTo quantify how good an estimate is, we will use loss functions.
+A loss function
+▶ takes in an estimator Θ and the points in our dataset, y1,y2,...,yn, and
+▶ outputs a single #, the loss, that measures how well Θ fits the data.
+The choice of loss function affects the downstream analysis.
+
+
+
+
+
+
+
