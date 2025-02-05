@@ -1,6 +1,43 @@
 CSCI 395 - Class notes
 02/04
 
+Sampling scenarios,
 
+Population, Sampling frame, Sample
+
+
+• Sampling Frame: set of all possible units that can be potetnitally sampled
+- accessibility to the sample. Sampling frame
+
+• sample is a subsety of the sampling frame
+
+
+slecting labels in Python, pandas
+
+pandas' ".loc" slices:
+df = define function
+# df = function name
+- df.loc[rows, columns]
+
+ranges:
+ - df.loc[0:3,'column_name':'column_name']
+
+
+
+• Subsetting
+
+1- baby.loc [:, 'Name', 'Year'] # all rows, only the columns Name and Year
+abbreviated: -- baby[ [’Name’,’Year’] ]
+
+
+
+• Series & Data framing
+
+baby['Name'] == 2020
+
+We can combine Series of Booleans using the element-wise logical operators: & and |
+(also not: !).
+
+Form: df[ (condition1) | (condition2) ]
 
 
