@@ -1,3 +1,84 @@
 CSCI - 395
 02/06
 
+
+• regression models:
+
+prediction and inference
+
+- you get an input and you expect the output.
+- you analyze the  behaviours of the data.
+
+• linear regression:
+
+y = mx + b
+
+Goal: find a linear relationship between the independent and dependent variables:
+
+We’ll use rooted mean squared error (RMSE) as the loss function.
+
+blue line is the prediction
+
+compute all the distance between the blue line and the data points.
+
+• Residuals
+
+• Linear Models
+
+• Loss functions
+
+it take san estimate and the points foe our data set and it gives us a number that tells us how well our model is doing.
+
+--------------------------------------------
+
+To compare different size samples, return the average:
+
+▶ Mean Absolute Error: Use average of absolute value of the differences:
+f (θ,y1,y2,...,yn) = 1
+n (|y1−θ|+ |y2−θ|+...+ |yn−θ|)
+
+▶ Mean Squared Error: Use average of the square the differences:
+f (θ,y1,y2,...,yn) = 1
+n ((y1−θ)2 + (y2−θ)2 +...+ (yn−θ)2)
+
+--------------------------------------------
+
+
+pandas data frame:
+
+- a table with rows and columns
+
+Pandas has a method for applying a function to every element in a Series, called
+apply(). Can use built-in functions...
+
+names = baby['Name']
+names.apply(len)
+
+--------------------------------------------
+
+
+baby['Firsts'] = names.apply(first_letter)
+
+you can add a new column to the data frame by using the apply method.
+
+
+series is just 1 column. data frame is a collection of series. (rows and columns)
+
+--------------------------------------------
+
+
+seaborn
+sns.distplot(student['Year'].dropna())
+plt.show()
+
+print(student['Year'].mean())
+
+
+
+--------------------------------------------
+
+s.map({})
+
+--------------------------------------------
+
+review: pandas, dataframes, series, seaborn, apply, map, mean, median
