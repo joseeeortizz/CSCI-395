@@ -1,0 +1,84 @@
+02.11
+
+class notes
+
+
+Data Agregation:
+
+.groupby() method
+
+We will often want to combine or aggregate data in our analysis.
+Built-in aggregation functions in pandas:
+
+
+
+
+• count() - Total number of items (the rows in the data frame)
+.nunique() - Number of unique items or values
+
+• first(), last() - First and last item
+• mean(), median() - Mean and median
+• min(), max() - Minimum and maximum
+• std(), var() - Standard deviation and variance
+• mad() - Mean absolute deviation
+• prod() - Product of all items
+• sum() - Sum of all items
+.agg() method - We can use the .agg() method to apply multiple aggregation functions at once.
+
+
+
+.plot() method
+
+We can use the .plot() method to create a plot of our data.
+
+
+ .plot('Year', 'Count')
+
+
+groupby will give you a row for each unique value in the column you group by
+
+
+.isnull() method - We can use the .isnull() method to check for missing values in our data.
+.fillna() method - We can use the .fillna() method to fill in missing values in our data.
+.dropna() method - We can use the .dropna() method to drop rows with missing values in our data.
+.drop() method - We can use the .drop() method to drop columns or rows from our data.
+
+
+.drop_duplicates() method - We can use the .drop_duplicates() method to drop duplicate rows from our data.
+.rename() method - We can use the .rename() method to rename columns in our data.
+
+
+
+--- baby['Count'].sum() - Sum of all values in the 'Count' column
+
+If .groupby() returns a Series, use .to frame() to convert to DataFrame.
+If .groupby() returns a DataFrame, use .reset index() to make the indices columns.
+
+• Grouping recipe
+                    Here’s the basic recipe for grouping in pandas:
+                    (
+                    df                      # the dataframe
+                    .groupby(["Year"])      # column(s) to group by
+                    [["Count"]]             # column(s) to aggregate
+                    .sum()                  # aggregate function
+                    )
+
+
+
+
+
+---------------------------------------------------------------------
+
+
+
+# to make it a hidden virtual environment
+.venv
+
+
+(my_env) python3 environment name
+
+python3 -m pip install -r requirements.txt
+
+• Boolean selection
+
+
