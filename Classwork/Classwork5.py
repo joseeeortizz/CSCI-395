@@ -1,7 +1,6 @@
 """
-Name: Jose Miguel Ortiz
-Email: jose.ortiz60@lagcc.cuny.edu
-Pod:
+
+Pod: in person / N/A
 Date: 02//2025
 
 """
