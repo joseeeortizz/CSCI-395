@@ -118,15 +118,19 @@ if False:
     losses_df = pd.DataFrame({'train_loss': train_losses, 'test_loss': test_losses})
     print(losses_df)
 
-# Optional Graphing (requires matplotlib, not for submission)
-# Uncomment the following to visualize results
-# import matplotlib.pyplot as plt
-# def graph_data(df, col, coeff):
-#     plt.scatter(df[col], df['graduation_rate'], label='Actual')
-#     pred = predict(df[col], coeff[col][0], coeff[col][1])
-#     plt.scatter(df[col], pred, label='Predicted')
-#     plt.xlabel(col)
-#     plt.ylabel('Graduation Rate')
-#     plt.legend()
-#     plt.show()
-# graph_data(late_df, 'college_career_rate', coeff)
+#Optional Graphing (requires matplotlib, not for submission)
+
+import matplotlib.pyplot as plt
+def graph_data(df, col, coeff):
+
+    plt.scatter(df[col], df['graduation_rate'], label='Actual')
+    predict_grad = predict(df[col], coeff[col][0], coeff[col][1])
+    plt.scatter(df[col], predict_grad, label='Predicted')
+    plt.title(f'{col} vs graduation_rate')
+    plt.ylabel('graduation_rate')
+    plt.xlabel(f'{col}')
+    plt.legend()
+    plt.show()
+
+
+graph_data(late_df, 'college_career_rate', coeff)
