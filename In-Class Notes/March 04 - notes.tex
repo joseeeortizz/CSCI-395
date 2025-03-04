@@ -1,0 +1,96 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+% Page Layout
+\usepackage[top=2cm, bottom=2cm, left=2.5cm, right=5cm]{geometry} % Right margin for margin notes
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\fancyhead[L]{\leftmark} % Current section
+\fancyhead[R]{\rightmark} % Current subsection
+\fancyfoot[C]{\thepage}
+
+% Math Packages
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{mathtools}
+
+% Theorems & Definitions
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+\newtheorem{example}{Example}[section]
+
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{lemma}[theorem]{Lemma}
+
+% Visual Elements
+\usepackage{xcolor}
+\usepackage{marginnote}
+\usepackage{tcolorbox}
+\tcbuselibrary{breakable}
+
+% Custom Commands
+\newcommand{\important}[1]{\textcolor{red}{\textbf{#1}}}
+\newcommand{\todo}[1]{\marginpar{\textcolor{red}{TODO: #1}}}
+\newcommand{\keyterm}[1]{\textbf{\textcolor{blue}{#1}}}
+
+% Hyperlinks
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+
+\begin{document}
+
+% Title Page
+\title{Class Notes: CSCI - 395}
+\author{Your Name}
+\date{\today}
+\maketitle
+\tableofcontents
+\newpage
+
+% Sample Lecture
+\section{Lecture 1: Introduction (Date)}
+\subsection{Main Topics}
+
+\begin{definition}[Important Concept]
+This is where you define key concepts. \keyterm{Keyword} highlighted.
+\end{definition}
+
+\begin{theorem}[Pythagorean Theorem]
+For a right triangle:
+\begin{equation}
+a^2 + b^2 = c^2
+\end{equation}
+\end{theorem}
+
+\marginnote{-15mm}{\textcolor{blue}{Remember!} This is a margin note for quick reminders.}
+
+\begin{example}
+Calculate hypotenuse when $a=3$, $b=4$:
+\begin{equation*}
+c = \sqrt{3^2 + 4^2} = 5
+\end{equation*}
+\end{example}
+
+\subsection{Summary}
+\begin{itemize}
+\item First key point \todo{Add reference}
+\item Second important idea
+\item \important{Crucial takeaway}
+\end{itemize}
+
+% Additional Features
+\subsection{Extra Tools}
+\begin{tcolorbox}[title=Quick Reference,colback=blue!5!white,colframe=blue!75!black]
+This is a colored box for important information.
+\end{tcolorbox}
+
+\end{document}
