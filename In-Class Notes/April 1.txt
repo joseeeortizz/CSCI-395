@@ -19,6 +19,39 @@ XGBoost
 
 Neural Networks
 
+- Machine Learning:
+
+Finding patterns in data is where machine learning comes in. Machine learning methods use statistical learning to identify boundaries.
+One example of a machine learning method is a decision tree.
+Decision trees look at one variable at a time and are a reasonably accessible (though rudimentary) machine learning method.
+
+In machine learning, these statements are called forks, and they split the data into two branches based on some value.
+
+That value between the branches is called a split point. Homes to the left of that point get categorized in one way, while those to the right are categorized in another.
+A split point is the decision tree's version of a boundary.
+
+
+-- Tradeoffs
+
+Picking a split point has tradeoffs. Our initial split (~73 m) incorrectly classifies some San Francisco homes as New York ones.
+
+Look at that large slice of green in the left pie chart, those are all the San Francisco homes that are misclassified.
+These are called false negatives.
+
+However, a split point meant to capture every San Francisco home will include many New York homes as well. These are called false positives.
+
+• The ultimate branches of the tree are called leaf nodes.
+    Our decision tree models will classify the homes in each leaf node according to which class of homes is in the majority.
+
+
+• Recap:
+
+    - Machine learning identifies patterns using statistical learning and computers by unearthing boundaries in data sets. You can use it to make predictions.
+    - One method for making predictions is called a decision trees, which uses a series of if-then statements to identify boundaries and define patterns in the data.
+    - Overfitting happens when some boundaries are based on on distinctions that don't make a difference. You can see if a model overfits by having test data flow through the model.
+
+
+
 ---------------------------------------------------------------------------
 
 
