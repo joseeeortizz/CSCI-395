@@ -12,6 +12,12 @@ y (x) = η( (Theta)θ·x)
 
 -----------------------------------------------------------------------------
 #NOTES:
+• Supervised learning:
+    X & Y.
+
+• Unsupervised learning:
+    X. (no 'Y' to predict)
+
 
 
 random forests
@@ -51,6 +57,16 @@ However, a split point meant to capture every San Francisco home will include ma
     - One method for making predictions is called a decision trees, which uses a series of if-then statements to identify boundaries and define patterns in the data.
     - Overfitting happens when some boundaries are based on on distinctions that don't make a difference. You can see if a model overfits by having test data flow through the model.
 
+overfitting data
+    - A decision tree's split points are the boundaries that separate the data into different classes.
+    - The more split points you have, the more accurate your model will be. But too many split points can lead to overfitting.
+    - The ultimate branches of a decision tree are called leaf nodes. Each leaf node is classified according to which class of homes is in the majority.
+
+Undersupervised learning
+    - In unsupervised learning, the model is not given any labels. Instead, it must find patterns in the data on its own.
+    - One method for unsupervised learning is called clustering, which groups similar data points together.
+    - Clustering can be used to identify patterns in data sets that are not immediately obvious.
+
 
 
 ---------------------------------------------------------------------------
@@ -77,7 +93,7 @@ However, a split point meant to capture every San Francisco home will include ma
             ⋆ Random forests: combines decision trees on input data subspaces.
             ⋆ XGBoost: combines a large number of weak, shallow trees.
 
-• Decision Trees:
+• Decision Trees & random forests:
 
     Ensemble method: aggregates the results of simpler estimators.
     The simple estimators are decisions trees.
@@ -93,6 +109,21 @@ However, a split point meant to capture every San Francisco home will include ma
 
 • Multiclass classification:
 
+    - Idea: build classifiers that separate each class from all the
+    rest (One-vs-rest).
+    - The OneVsRestClassifier class in sklearn.multiclass
+    implements a strategy to fit those.
+    from sklearn.multiclass import OneVsRestClassifier
+    from sklearn.linear model import LogisticRegression
+
+    model = OneVsRestClassifier(LogisticRegression())
+
+    model.fit(X, y)
+
+    - Many models have inherent multiclass support (e.g. neural
+    networks), so check the documentation.
+
+
     Multiclass classification: more than 2 classes.
     One-vs-all: train a binary classifier for each class.
         ▶ For each class, train a classifier to distinguish that class from all others.
@@ -100,6 +131,13 @@ However, a split point meant to capture every San Francisco home will include ma
     One-vs-one: train a binary classifier for each pair of classes.
         ▶ For each pair of classes, train a classifier to distinguish between them.
         ▶ For each test point, classify it with the classifier that gives the highest score.
+
+
+
+• Vector Spaces:
+
+
+
 
 
 ------
