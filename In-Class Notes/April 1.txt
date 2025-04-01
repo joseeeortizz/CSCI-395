@@ -1,3 +1,82 @@
 April 1, 2025 Class Notes:
 
--
+- Quick note on logistic regression
+In multiple linear regression we write
+y (x) = Theta ·x
+where (Theta)θ·x = θ0 + θ1x1 + θ2x2 +···
+and for logistic regression we have
+y (x) = 1
+1 + exp (Theta)θ·x
+So generally we can write
+y (x) = η( (Theta)θ·x)
+
+-----------------------------------------------------------------------------
+#NOTES:
+
+
+random forests
+XGBoost
+
+Neural Networks
+
+---------------------------------------------------------------------------
+
+
+• GLM (Generalized Linear Model)
+
+- logistic regression:
+
+    Theta • |X (sample mean) = X
+
+• Classification Survey:
+
+    Goal: classify red versus blue points.
+    Many different alternatives...
+        ▶ Discriminative: model conditional probability P(y |x)
+            ⋆ Logistic regression.
+            ⋆ Support vector machines: separate (transformed) space with a plane.
+            ⋆ Feed-forward neural networks.
+        ▶ Generative: model joint probability P(y ,x)
+            ⋆ Naive Bayes models: quick, few parameters.
+            ⋆ Generative adversarial networks.
+        ▶ Ensemble methods: combine multiple classifiers into one.
+            ⋆ Random forests: combines decision trees on input data subspaces.
+            ⋆ XGBoost: combines a large number of weak, shallow trees.
+
+• Decision Trees:
+
+    Ensemble method: aggregates the results of simpler estimators.
+    The simple estimators are decisions trees.
+    The ensemble is a random forest.
+    Does surprisingly well: a majority vote of estimators can be better than any of the
+    estimators on their own.
+
+
+•
+
+
+
+
+• Multiclass classification:
+
+    Multiclass classification: more than 2 classes.
+    One-vs-all: train a binary classifier for each class.
+        ▶ For each class, train a classifier to distinguish that class from all others.
+        ▶ For each test point, classify it with the classifier that gives the highest score.
+    One-vs-one: train a binary classifier for each pair of classes.
+        ▶ For each pair of classes, train a classifier to distinguish between them.
+        ▶ For each test point, classify it with the classifier that gives the highest score.
+
+
+------
+
+• Dimensionality Reduction:
+    Dimensionality reduction techniques are used for analysis & visualization.
+
+    Principal Components Analysis:
+        ▶ Transforms data so that variation is on fewest coordinates. First coordinate has most
+    variation, second has next most, etc.
+        ▶ Use first 2 (or 3) components for visualization.
+    Multidimensional Scaling:
+        ▶ Preserve relative distances in the mapping.
+        ▶ Common criteria: minimize MSE between true distances and screen distances.
