@@ -5,12 +5,12 @@ Your capstone projects should either utilize the skills and tools you acquired d
 Throughout your project, from design to delivery, you will find the "[data science lifecycle](https://learningds.org/ch/01/lifecycle_cycle.html)" we discussed in the lectures a useful framework.
 
 ## Milestones, deadlines, and grading rubric
-| **milestone**      | **due date**                        | **points** |
-|--------------------|-------------------------------------|------------|
-| Project proposal   | TBD                                 | 20         |
-| Draft check-in     | TBD                                 | 10         |
-| Project submission | TBD                                 | 40         |
-| Lightning talk     | Tuesday May 13 and Thursday May 15  | 30         |
+| **milestone**      | **due date**                           | **points** |
+|--------------------|----------------------------------------|------------|
+| Project proposal   | Sunday, April 6                        | 20         |
+| Draft check-ins    | Tuesday, April 22 & Thursday, April 24 | 10         |
+| Project submission | Thursday, May 8                        | 40         |
+| Lightning talks    | Tuesday, May 13 & Thursday, May 15     | 30         |
 
 
 ### Milestone #1: Project proposal
