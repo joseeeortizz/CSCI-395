@@ -1,7 +1,7 @@
 
 if __name__ == '__main__':
 
-import pandas as pd
+    import pandas as pd
 
 
 def largest_orders(orders: pd.DataFrame) -> pd.DataFrame:
@@ -12,7 +12,7 @@ def largest_orders(orders: pd.DataFrame) -> pd.DataFrame:
 
     return result
 
------------------------------------------------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------------------------------------------------
 
 import pandas as pd
 
