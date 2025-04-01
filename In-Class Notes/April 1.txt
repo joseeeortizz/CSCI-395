@@ -40,9 +40,10 @@ These are called false negatives.
 
 However, a split point meant to capture every San Francisco home will include many New York homes as well. These are called false positives.
 
-• The ultimate branches of the tree are called leaf nodes.
-    Our decision tree models will classify the homes in each leaf node according to which class of homes is in the majority.
-
+• Growing a tree:
+    Additional forks will add new information that can increase a tree's prediction accuracy.
+    • The ultimate branches of the tree are called leaf nodes.
+        Our decision tree models will classify the homes in each leaf node according to which class of homes is in the majority.
 
 • Recap:
 
