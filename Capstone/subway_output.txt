@@ -1867,5 +1867,182 @@ Yankee Stadium-161st St
 York St
 Zerega Av
 Zerega Av
-Portals for Station York St:
-  York St ({'F'})
+Stations on Route N:
+36th St
+36th St
+36th St
+59th St
+59th St
+59th St
+59th St
+59th St
+59th St
+Atlantic Av-Barclays Ctr
+Pacific St
+Pacific St
+Times Square
+34th St
+34th St
+34th St
+34th St
+34th St
+34th St
+34th St
+34th St
+34th St
+34th St
+42nd St
+42nd St
+42nd St
+42nd St
+42nd St
+42nd St
+42nd St
+42nd St
+42nd St
+30 Av-Grand Av
+30 Av-Grand Av
+30 Av-Grand Av
+30 Av-Grand Av
+36 Av-Washington Av
+36 Av-Washington Av
+36 Av-Washington Av
+39 Av-Beebe Av
+39 Av-Beebe Av
+Astoria Blvd-Hoyt Av
+Astoria Blvd-Hoyt Av
+Astoria Blvd-Hoyt Av
+Astoria Blvd-Hoyt Av
+Broadway
+Broadway
+Broadway
+Ditmars Blvd
+Ditmars Blvd
+Ditmars Blvd
+Ditmars Blvd
+Atlantic Av
+Stillwell Av
+23rd St
+23rd St
+23rd St
+23rd St
+23rd St
+23rd St
+23rd St
+23rd St
+28th St
+28th St
+28th St
+28th St
+34th St
+34th St
+34th St
+34th St
+49th St
+49th St
+49th St
+49th St
+49th St
+49th St
+49th St
+57th St
+57th St
+57th St
+57th St
+57th St
+57th St
+57th St
+57th St
+5th Av
+5th Av
+5th Av
+5th Av
+5th Av
+5th Av
+5th Av
+8th St
+8th St
+8th St
+8th St
+8th St
+8th St
+8th St
+8th St
+Canal St (UL)
+Canal St (UL)
+Canal St (UL)
+Canal St (UL)
+Canal St (UL)
+Canal St (UL)
+Canal St (UL)
+Lexington Av
+Lexington Av
+Lexington Av
+Lexington Av
+Prince St
+Prince St
+Prince St
+Prince St
+Times Square-42nd St
+Times Square-42nd St
+Times Square-42nd St
+Times Square-42nd St
+Union Square
+Union Square
+Union Square
+Union Square
+Times Square
+Times Square
+Times Square
+Times Square
+Times Square
+Times Square
+Times Square
+Times Square
+Times Square
+Union Square
+Union Square
+Stillwell Av
+Atlantic Av-Barclays Ctr
+Queensboro Plaza
+Queensboro Plaza
+14th St-Union Square
+14th St-Union Square
+14th St-Union Square
+14th St-Union Square
+14th St-Union Square
+14th St-Union Square
+59th St
+59th St
+59th St
+59th St
+59th St
+59th St
+59th St
+Canal St
+Canal St
+Canal St
+Canal St
+Canal St
+Canal St
+Canal St
+Canal St
+18th Av
+18th Av
+20th Av
+86th St
+8th Av
+Av U
+Av U
+Bay Parkway-22nd Av
+Bay Parkway-22nd Av
+Fort Hamilton Parkway
+Fort Hamilton Parkway
+Kings Highway
+Kings Highway
+New Utrecht Av
+New Utrecht Av
+62nd St
+62nd St
+62nd St
+Routes at Lexington Av: F
