@@ -1,6 +1,6 @@
-# NYC Subway Accessibility Analysis
+# NYC Subway Accessibility
 
-## Overview
+## Project Overview
 This project analyzes the accessibility of New York City's subway system by examining the distribution and characteristics of subway entrances and exits across the five boroughs. The analysis focuses on identifying areas with limited accessibility options, particularly for individuals with mobility challenges who require elevator access.
 
 ## Background
@@ -68,10 +68,7 @@ To run the analysis:
 4. Run the cells in sequence
 
 ## Author
-José Miguel Ortiz  
-Hunter College  
-CSCI 395: Introduction to Data Science  
-Professor Adrián Soto Cambres
+José Miguel Ortiz
 
 ## License
 This project is licensed under the terms of the included LICENSE file.
