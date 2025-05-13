@@ -44,7 +44,6 @@ The analysis follows these steps:
    - Analysis of elevator access by borough
 4. Geospatial analysis using interactive maps
 5. Analysis of subway lines and their accessibility
-6. Identification of accessibility gaps
 
 ## Key Findings
 
@@ -67,8 +66,6 @@ To run the analysis:
 3. Open `Project01.ipynb` in Jupyter Notebook or JupyterLab
 4. Run the cells in sequence
 
-## Author
-José Miguel Ortiz
 
-## License
-This project is licensed under the terms of the included LICENSE file.
+#### Author:
+José Miguel Ortiz.
